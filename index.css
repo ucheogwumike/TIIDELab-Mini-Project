@@ -1,0 +1,103 @@
+/* RESETING THE BROWSER DEFAULT STYLES */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+    
+}
+li{
+    list-style: none;
+}
+
+
+
+body{
+    font-family: Arial;
+    background: linear-gradient(to right top,#4ca1af ,#19547b );
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+   
+}
+main{
+    height: 100vh;
+   
+}
+
+/* .glass{
+    background: #ffd89b;
+
+} */
+
+.heading{
+    margin: 10px 0;
+}
+
+.search-section{
+    background-color:#800020;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#search{
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid white;
+    border-radius: 15px;
+    outline: none;
+
+}
+
+
+.user-list-section{
+    margin-top: 20px;
+    
+    
+}
+
+li{
+    /* border: 1px solid #DDDDDD; */  /* i feel the list looks better without the border  */ 
+    
+     margin-top: -1px ;/* prevent's double border   */
+    /* background-color: #f6f6f6; */
+    background: rgba(200, 200,200, 0.4);
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 12px;
+    
+}
+li:hover{
+    background-color: #DDDDDD;
+   
+    cursor: pointer;
+}
+/* Fill button for username */
+.username{
+    background-color: #800020;
+    color: #ffffff;
+    padding:6px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+/* MEDIA QUERY FOR LARGE SCREENS */
+@media(min-width:1000px){
+    body{
+        width: 50%;
+        transition: 0.5s ;
+    }
+    li{
+        font-size: 14px;
+        padding: 2%;
+    }
+
+    .username{
+        
+        font-size: 12px;
+        
+    }
+
+}
+
